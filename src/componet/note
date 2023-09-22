@@ -1,0 +1,55 @@
+<!-- // import React, { useEffect, useState } from "react";
+// import axios from "axios";
+
+// const Position = () => {
+//   const [position, setPosition] = useState([]);
+
+//   useEffect(() => {
+//     const getposition = async () => {
+//       const response = await axios.get(
+//         "https://raw.githubusercontent.com/rebeccaestes/yoga_api/master/yoga_api.json"
+//       );
+
+//       if (response.data) {
+//         console.log("res.", response.data);
+//         setPosition(response.data);
+//       }
+//     };
+//     getposition();
+//   }, []);
+
+//   return (
+//     <>
+//       <div className="pos_main">
+//         <h1 className="col_name">Yoga Positions</h1>
+//         <img className="posititline" src="./Images/line.png" alt="line"></img>
+//         <div className="row">
+//           {position.map((curs) => (
+//             <div className="col-md-4 animated fadeIn" key={curs.id}>
+//               <div className="card">
+//                 <div className="card-body">
+//                   <div className="avatar">
+//                     <img src={curs.img_url} className="card-img-top" alt="" />
+
+//                     <h5 className="card-title">
+//                       <span className="poname">Sanskrit Name :- </span>
+//                       <br />
+//                       {curs.sanskrit_name}
+//                     </h5>
+//                     <br />
+
+//                     <h5 className="card-title">
+//                       <span className="poname">English Name :- </span>
+//                       <br /> {curs.english_name}
+//                     </h5>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+// export default Position; -->
